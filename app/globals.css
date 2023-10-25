@@ -2,26 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer utilities{
+  .TodoAction{
+    @apply text-gray-400 p-1 transition-all duration-300  hover:text-white rounded-full w-7 h-7 flex items-center justify-center
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .TodoAction-Label{
+    @apply  text-white text-[10px] absolute p-1 rounded -top-0 peer-hover:-top-7 opacity-0 peer-hover:opacity-100 -z-10 peer-hover:z-0 -right-0.5 before:absolute before:w-2 before:h-1.5 before:rotate-45  before:-bottom-0.5  before:right-3 transition-all duration-300 
+  }
 }
