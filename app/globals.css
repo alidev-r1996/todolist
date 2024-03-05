@@ -9,4 +9,16 @@
   .TodoAction-Label{
     @apply  text-white text-[10px] absolute p-1 rounded -top-0 peer-hover:-top-7 opacity-0 peer-hover:opacity-100 -z-10 peer-hover:z-0 -right-0.5 before:absolute before:w-2 before:h-1.5 before:rotate-45  before:-bottom-0.5  before:right-3 transition-all duration-300 
   }
+  .inputField{
+    @apply outline-none bg-gray-100 rounded p-3 text-xs border focus:bg-white focus:border-gray-400 focus:shadow
+  }
+
+  .btn{
+    @apply text-white bg-blue-600 hover:bg-blue-500 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded text-sm px-5 py-2.5 text-center mt-1 
+  }
+
+  .btn-primary{
+    @apply text-blue-600 border border-blue-600 hover:bg-blue-50 shadow-lg  font-medium rounded text-sm px-5 py-2.5 text-center mt-1 
+  }
+
 }
