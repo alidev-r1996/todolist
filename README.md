@@ -27,7 +27,7 @@ bun dev
 ### ScreenShot
 
 <div style='display: flex; gap:2px'>
-<img src='https://s8.uupload.ir/files/todolist_hurc.png' style='object-fit:cover;' />
+<img src='https://s8.uupload.ir/files/todolist_quhd.png' style='object-fit:cover;' />
 </div>
 
 
