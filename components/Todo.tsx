@@ -6,8 +6,8 @@ import TodoActions from "./TodoActions";
 export const Todo: React.FC<TodoProps> = ({created_at,desc, _id,isCompleted,title,}) => {
 
   return (
-    <div
-      className={`flex relative items-start sm:items-center justify-between p-2 bg-gray-100 rounded`}
+    <div title={desc}
+      className={`flex relative cursor-pointer items-start sm:items-center justify-between p-2 bg-gray-100 rounded`}
     >
       <div className="flex flex-col flex-1">
         <h1 className={`${isCompleted && "line-through text-rose-700"} font-bold text-sm`}>
