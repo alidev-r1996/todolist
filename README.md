@@ -1,8 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This full-stack todolist Created By next.js. uses serverless internal api and mongodb Database for storing todos. read, write, edit, remove, search, filter implemented.
+
+### Packages used in project:
+![next.js](https://camo.githubusercontent.com/11561ed7d7e5735041de1effd78226dfc545474e6f468482f91223957fe7234e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6578742e6a732d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d6e657874646f746a73266c6f676f436f6c6f723d7768697465)
+![tailwind.css](https://camo.githubusercontent.com/4035639fa9b5a59d0686daa6e2b37156b8e00f198814e38f3a44398159426bf9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5461696c77696e645f4353532d3039323734393f7374796c653d666f722d7468652d6261646765266c6f676f3d7461696c77696e64637373266c6f676f436f6c6f723d303642364434266c6162656c436f6c6f723d303030303030)
+![Mongodb](https://camo.githubusercontent.com/4ae569342c64ecd9f0d7e7cbed78fffcca6a0f427e8efb4297c1d357dfb09074/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d3445413934423f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465)
+![git](https://camo.githubusercontent.com/f38298638f10774e1f0205a1111dff4a7675c0ed8600356f28e8276c2bab8235/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769742d4630353033323f7374796c653d666f722d7468652d6261646765266c6f676f3d676974266c6f676f436f6c6f723d7768697465)
+![TypeScript](https://camo.githubusercontent.com/3c675da0ea72fd0d028fdfb84f87b1a959050f970bfc97781b227b3de1fee0aa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970657363726970742d3030376163633f7374796c653d666f722d7468652d6261646765266c6162656c436f6c6f723d626c61636b266c6f676f3d74797065736372697074266c6f676f436f6c6f723d303037616363)
+
 
 ## Getting Started
 
-First, run the development server:
+First, after the setup required packages:
 
 ```bash
 npm run dev
@@ -14,23 +22,15 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### ScreenShot
 
-## Learn More
+<div style='display: flex; gap:2px'>
+<img src='https://s8.uupload.ir/files/todolist_quhd.png' style='object-fit:cover;' />
+</div>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## [View Demo](https://todolist-seven-peach.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
